@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BannerContainer, BannerContent, PictureLP, StyledH1 } from "./styles";
-import ProfilePictureLP from "../../../assets/homeImages/lainePicture.jpg";
+import ProfilePictureLP from "../../../assets/homeImages/lainePicture.webp";
 
 const Banner = ({ roles }) => {
   const [rolesIndex, setRolesIndex] = useState(0);
