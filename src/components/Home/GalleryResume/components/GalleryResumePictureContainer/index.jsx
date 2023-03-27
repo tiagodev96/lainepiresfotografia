@@ -8,7 +8,7 @@ export const GalleryResumePictureContainer = ({ imageObject }) => {
   };
 
   return (
-    <Link to={`/galeria/${imageObject.category}`} onClick={handleLinkClick}>
+    <Link to={`/galeria/album/${imageObject.id}`} onClick={handleLinkClick}>
       <GalleryContainer>
         <img src={imageObject.src.type} alt={imageObject.description} />
         <p>{imageObject.category}</p>
