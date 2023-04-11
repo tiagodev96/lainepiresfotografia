@@ -33,7 +33,7 @@ const ServiceCard = ({ type }) => {
               fontSize: 60,
               position: "absolute",
               top: -30,
-              backgroundColor: "#C62172",
+              backgroundColor: "#3D3D3D",
               borderRadius: "50%",
               padding: 0.5,
               color: "#fff",
@@ -58,7 +58,7 @@ const ServiceCard = ({ type }) => {
               fontSize: 60,
               position: "absolute",
               top: -30,
-              backgroundColor: "#C62172",
+              backgroundColor: "#3D3D3D",
               color: "#fff",
               borderRadius: "50%",
               padding: 0.5,
@@ -93,7 +93,7 @@ const ServiceCard = ({ type }) => {
           <ul>
             <li>Ajuda na montagem do look e cenário</li>
             <li>2 horas de ensaio</li>
-            <li style={{ color: "#C62172" }}>Maquiadora profissional</li>
+            <li style={{ color: "#3D3D3D" }}>Maquiadora profissional</li>
           </ul>
           <PremiumAmountContainer>
             <h3>35 Fotos Tratadas</h3>

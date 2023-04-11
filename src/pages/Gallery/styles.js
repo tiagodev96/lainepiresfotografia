@@ -8,7 +8,7 @@ export const GalleryContainer = styled.main`
 
   h2 {
     font-size: 2rem;
-    color: ${(props) => props.theme["darkFuchsia"]};
+    color: ${(props) => props.theme["black"]};
     text-align: center;
   }
 `;

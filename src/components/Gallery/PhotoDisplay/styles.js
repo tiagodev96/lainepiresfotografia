@@ -12,10 +12,10 @@ export const PhotoDisplayContainer = styled.main`
     p {
       font-weight: bold;
       transition: all 0.2s ease-in-out;
-      color: ${(props) => props.theme["darkFuchsia"]};
+      color: ${(props) => props.theme["black"]};
 
       &:hover {
-        color: ${(props) => props.theme["fuchsia"]};
+        color: ${(props) => props.theme["secondary"]};
       }
     }
   }

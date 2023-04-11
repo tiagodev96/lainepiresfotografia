@@ -61,7 +61,7 @@ export const StyledH1 = styled.h1`
   opacity: 0;
   transform: translateY(15px);
   transition: all 0.5s ease-out;
-  color: ${(props) => props.theme["fuchsia"]};
+  color: ${(props) => props.theme["secondary"]};
   margin-bottom: 1rem;
   ${({ visible }) =>
     visible &&

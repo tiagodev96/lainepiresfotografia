@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const PhotoEssayContainer = styled.div`
   cursor: pointer;
   font-family: "Playfair Display", serif;
-  color: ${(props) => props.theme["darkFuchsia"]};
+  color: ${(props) => props.theme["black"]};
   padding: 0.5rem;
   border-radius: 8px;
   transition: all 0.2s ease-in-out;
   border: 1px solid transparent;
 
   &:hover {
-    border: 1px solid ${(props) => props.theme["darkFuchsia"]};
+    border: 1px solid ${(props) => props.theme["black"]};
   }
 
   img {

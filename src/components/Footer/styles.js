@@ -37,8 +37,8 @@ export const SocialMediaContainer = styled.div`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      border: 2px solid ${(props) => props.theme["fuchsia"]};
-      background-color: ${(props) => props.theme["fuchsia"]};
+      border: 2px solid ${(props) => props.theme["secondary"]};
+      background-color: ${(props) => props.theme["secondary"]};
       transform: translateY(-4px);
     }
   }

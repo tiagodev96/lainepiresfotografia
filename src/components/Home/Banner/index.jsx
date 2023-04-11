@@ -31,7 +31,7 @@ const Banner = ({ roles }) => {
         <StyledH1 visible={visible} key={roles[rolesIndex]}>
           {roles[rolesIndex]}.
         </StyledH1>
-        <h2>Clicando momentos especiais em Salvador-BA!</h2>
+        <h2>Ensaios femininos criativos com leveza e autenticidade!</h2>
       </BannerContent>
     </BannerContainer>
   );

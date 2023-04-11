@@ -7,7 +7,7 @@ export const PacksContainer = styled.main`
   gap: 4rem;
 
   h1 {
-    color: ${(props) => props.theme["darkFuchsia"]};
+    color: ${(props) => props.theme["black"]};
     font-size: 2rem;
     text-align: center;
 

@@ -41,8 +41,8 @@ export const CategoryTab = styled.ul`
       left: 0;
       bottom: -4px;
       width: 0;
-      height: 2px;
-      background-color: ${(props) => props.theme["fuchsia"]};
+      height: 1px;
+      background-color: ${(props) => props.theme["white"]};
       transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
     }
 

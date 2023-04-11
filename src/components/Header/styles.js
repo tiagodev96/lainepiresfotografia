@@ -30,7 +30,7 @@ export const PagesList = styled.ul`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      color: ${(props) => props.theme["fuchsia"]};
+      transform: scale(1.075);
     }
 
     &::after {
@@ -39,8 +39,8 @@ export const PagesList = styled.ul`
       left: 0;
       bottom: -2px;
       width: 0;
-      height: 2px;
-      background-color: ${(props) => props.theme["fuchsia"]};
+      height: 1px;
+      background-color: ${(props) => props.theme["white"]};
       transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
     }
 

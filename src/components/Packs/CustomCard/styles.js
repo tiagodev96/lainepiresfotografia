@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const CustomCardContiner = styled.div`
   padding: 1rem 4%;
   background-color: ${(props) => props.theme["white"]};
-  border: 3px solid ${(props) => props.theme["darkFuchsia"]};
+  border: 3px solid ${(props) => props.theme["black"]};
   border-radius: 8px;
-  color: ${(props) => props.theme["darkFuchsia"]};
+  color: ${(props) => props.theme["black"]};
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ export const CustomCardContiner = styled.div`
     button {
       border-radius: 8px;
       padding: 0.5rem;
-      background-color: ${(props) => props.theme["darkFuchsia"]};
+      background-color: ${(props) => props.theme["black"]};
       color: ${(props) => props.theme["white"]};
       border: 1px solid transparent;
       font-weight: bold;
@@ -38,7 +38,7 @@ export const CustomCardContiner = styled.div`
 
       &:hover {
         transform: translateY(-4px);
-        background-color: ${(props) => props.theme["fuchsia"]};
+        background-color: ${(props) => props.theme["secondary"]};
       }
     }
   }

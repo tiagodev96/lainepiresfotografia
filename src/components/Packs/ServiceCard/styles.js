@@ -9,7 +9,7 @@ export const ServiceCardContainer = styled.div`
   align-items: center;
   padding: 2rem;
   border-radius: 8px;
-  color: ${(props) => props.theme["darkFuchsia"]};
+  color: ${(props) => props.theme["black"]};
   height: 450px;
   border: 3px solid transparent;
   background-color: #fff;
@@ -17,7 +17,7 @@ export const ServiceCardContainer = styled.div`
   h2 {
     text-align: center;
     padding-bottom: 15px;
-    border-bottom: 3px solid ${(props) => props.theme["darkFuchsia"]};
+    border-bottom: 3px solid ${(props) => props.theme["black"]};
     width: 200px;
   }
 
@@ -33,13 +33,13 @@ export const ServiceCardContainer = styled.div`
 `;
 
 export const BasicServiceCard = styled(ServiceCardContainer)`
-  border-color: ${(props) => props.theme["fuchsia"]};
+  border-color: ${(props) => props.theme["secondary"]};
 `;
 export const ProServiceCard = styled(ServiceCardContainer)`
-  border-color: ${(props) => props.theme["fuchsia"]};
+  border-color: ${(props) => props.theme["secondary"]};
 `;
 export const PremiumServiceCard = styled(ServiceCardContainer)`
-  border-color: ${(props) => props.theme["darkFuchsia"]};
+  border-color: ${(props) => props.theme["black"]};
 `;
 
 const PicturesAmountContainer = styled.div`
@@ -54,20 +54,20 @@ const PicturesAmountContainer = styled.div`
 `;
 
 export const BasicAmountContainer = styled(PicturesAmountContainer)`
-  background-color: ${(props) => props.theme["fuchsia"]};
+  background-color: ${(props) => props.theme["secondary"]};
 `;
 
 export const ProAmountContainer = styled(PicturesAmountContainer)`
-  background-color: ${(props) => props.theme["fuchsia"]};
+  background-color: ${(props) => props.theme["secondary"]};
 `;
 
 export const PremiumAmountContainer = styled(PicturesAmountContainer)`
-  background-color: ${(props) => props.theme["darkFuchsia"]};
+  background-color: ${(props) => props.theme["black"]};
 `;
 
 export const RequestQuote = styled.p`
   font-weight: bold;
-  border: 1px solid ${(props) => props.theme["darkFuchsia"]};
+  border: 1px solid ${(props) => props.theme["black"]};
   padding: 0.5rem;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
