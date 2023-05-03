@@ -20,6 +20,24 @@ import EliEssay9 from "../assets/portfolio/corporate/eli/9.webp";
 import EliEssay9Thumb from "../assets/portfolio/corporate/eli/9Thumb.webp";
 import EliEssay10 from "../assets/portfolio/corporate/eli/10.webp";
 import EliEssay10Thumb from "../assets/portfolio/corporate/eli/10Thumb.webp";
+import EliEssay11 from "../assets/portfolio/corporate/eli/11.webp";
+import EliEssay11Thumb from "../assets/portfolio/corporate/eli/11Thumbnail.webp";
+import EliEssay12 from "../assets/portfolio/corporate/eli/12.webp";
+import EliEssay12Thumb from "../assets/portfolio/corporate/eli/12Thumbnail.webp";
+import EliEssay13 from "../assets/portfolio/corporate/eli/13.webp";
+import EliEssay13Thumb from "../assets/portfolio/corporate/eli/13Thumbnail.webp";
+import EliEssay14 from "../assets/portfolio/corporate/eli/14.webp";
+import EliEssay14Thumb from "../assets/portfolio/corporate/eli/14Thumbnail.webp";
+import EliEssay15 from "../assets/portfolio/corporate/eli/15.webp";
+import EliEssay15Thumb from "../assets/portfolio/corporate/eli/15Thumbnail.webp";
+import EliEssay16 from "../assets/portfolio/corporate/eli/16.webp";
+import EliEssay16Thumb from "../assets/portfolio/corporate/eli/16Thumbnail.webp";
+import EliEssay17 from "../assets/portfolio/corporate/eli/17.webp";
+import EliEssay17Thumb from "../assets/portfolio/corporate/eli/17Thumbnail.webp";
+import EliEssay18 from "../assets/portfolio/corporate/eli/18.webp";
+import EliEssay18Thumb from "../assets/portfolio/corporate/eli/18Thumbnail.webp";
+import EliEssay19 from "../assets/portfolio/corporate/eli/19.webp";
+import EliEssay19Thumb from "../assets/portfolio/corporate/eli/19Thumbnail.webp";
 
 // // Giselle
 import GiselleEssay1 from "../assets/portfolio/corporate/giselle/1.webp";
@@ -602,10 +620,46 @@ export const dataBase = [
   },
   {
     id: 0,
-    src: <EliEssay1 />,
+    src: <EliEssay18 />,
     category: "Corporativas",
     description: "Consultora de Imagem",
     images: [
+      {
+        original: <EliEssay11 />,
+        thumbnail: <EliEssay11Thumb />,
+      },
+      {
+        original: <EliEssay12 />,
+        thumbnail: <EliEssay12Thumb />,
+      },
+      {
+        original: <EliEssay13 />,
+        thumbnail: <EliEssay13Thumb />,
+      },
+      {
+        original: <EliEssay14 />,
+        thumbnail: <EliEssay14Thumb />,
+      },
+      {
+        original: <EliEssay15 />,
+        thumbnail: <EliEssay15Thumb />,
+      },
+      {
+        original: <EliEssay16 />,
+        thumbnail: <EliEssay16Thumb />,
+      },
+      {
+        original: <EliEssay17 />,
+        thumbnail: <EliEssay17Thumb />,
+      },
+      {
+        original: <EliEssay18 />,
+        thumbnail: <EliEssay18Thumb />,
+      },
+      {
+        original: <EliEssay19 />,
+        thumbnail: <EliEssay19Thumb />,
+      },
       {
         original: <EliEssay1 />,
         thumbnail: <EliEssay1Thumb />,
