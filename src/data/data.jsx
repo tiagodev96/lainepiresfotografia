@@ -337,7 +337,59 @@ import LarissaEssay12Thumb from "../assets/portfolio/corporate/larissa/12Thumbna
 import LarissaEssay13 from "../assets/portfolio/corporate/larissa/13.webp";
 import LarissaEssay13Thumb from "../assets/portfolio/corporate/larissa/13Thumbnail.webp";
 
+// Eli Casual Praia
+import EliBeachEssay1 from "../assets/portfolio/casual/eli/1.webp";
+import EliBeachEssay1Thumb from "../assets/portfolio/casual/eli/1Thumbnail.webp";
+import EliBeachEssay2 from "../assets/portfolio/casual/eli/2.webp";
+import EliBeachEssay2Thumb from "../assets/portfolio/casual/eli/2Thumbnail.webp";
+import EliBeachEssay3 from "../assets/portfolio/casual/eli/3.webp";
+import EliBeachEssay3Thumb from "../assets/portfolio/casual/eli/3Thumbnail.webp";
+import EliBeachEssay4 from "../assets/portfolio/casual/eli/4.webp";
+import EliBeachEssay4Thumb from "../assets/portfolio/casual/eli/4Thumbnail.webp";
+import EliBeachEssay5 from "../assets/portfolio/casual/eli/5.webp";
+import EliBeachEssay5Thumb from "../assets/portfolio/casual/eli/5Thumbnail.webp";
+import EliBeachEssay6 from "../assets/portfolio/casual/eli/6.webp";
+import EliBeachEssay6Thumb from "../assets/portfolio/casual/eli/6Thumbnail.webp";
+import EliBeachEssay7 from "../assets/portfolio/casual/eli/7.webp";
+import EliBeachEssay7Thumb from "../assets/portfolio/casual/eli/7Thumbnail.webp";
+
 export const dataBase = [
+  {
+    id: 11,
+    src: <EliBeachEssay2 />,
+    category: "Casuais",
+    description: "Praia",
+    images: [
+      {
+        original: <EliBeachEssay1 />,
+        thumbnail: <EliBeachEssay1Thumb />,
+      },
+      {
+        original: <EliBeachEssay2 />,
+        thumbnail: <EliBeachEssay2Thumb />,
+      },
+      {
+        original: <EliBeachEssay3 />,
+        thumbnail: <EliBeachEssay3Thumb />,
+      },
+      {
+        original: <EliBeachEssay4 />,
+        thumbnail: <EliBeachEssay4Thumb />,
+      },
+      {
+        original: <EliBeachEssay5 />,
+        thumbnail: <EliBeachEssay5Thumb />,
+      },
+      {
+        original: <EliBeachEssay6 />,
+        thumbnail: <EliBeachEssay6Thumb />,
+      },
+      {
+        original: <EliBeachEssay7 />,
+        thumbnail: <EliBeachEssay7Thumb />,
+      },
+    ],
+  },
   {
     id: 10,
     src: <LarissaEssay1 />,
