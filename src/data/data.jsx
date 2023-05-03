@@ -140,6 +140,28 @@ import NougConvidaEssay9 from "../assets/portfolio/event/noug-convida/9.webp";
 import NougConvidaEssay9Thumb from "../assets/portfolio/event/noug-convida/9Thumb.webp";
 import NougConvidaEssay10 from "../assets/portfolio/event/noug-convida/10.webp";
 import NougConvidaEssay10Thumb from "../assets/portfolio/event/noug-convida/10Thumb.webp";
+import NougConvidaEssay11 from "../assets/portfolio/event/noug-convida/11.webp";
+import NougConvidaEssay11Thumb from "../assets/portfolio/event/noug-convida/11Thumbnail.webp";
+import NougConvidaEssay12 from "../assets/portfolio/event/noug-convida/12.webp";
+import NougConvidaEssay12Thumb from "../assets/portfolio/event/noug-convida/12Thumbnail.webp";
+import NougConvidaEssay13 from "../assets/portfolio/event/noug-convida/13.webp";
+import NougConvidaEssay13Thumb from "../assets/portfolio/event/noug-convida/13Thumbnail.webp";
+import NougConvidaEssay14 from "../assets/portfolio/event/noug-convida/14.webp";
+import NougConvidaEssay14Thumb from "../assets/portfolio/event/noug-convida/14Thumbnail.webp";
+import NougConvidaEssay15 from "../assets/portfolio/event/noug-convida/15.webp";
+import NougConvidaEssay15Thumb from "../assets/portfolio/event/noug-convida/15Thumbnail.webp";
+import NougConvidaEssay16 from "../assets/portfolio/event/noug-convida/16.webp";
+import NougConvidaEssay16Thumb from "../assets/portfolio/event/noug-convida/16Thumbnail.webp";
+import NougConvidaEssay17 from "../assets/portfolio/event/noug-convida/17.webp";
+import NougConvidaEssay17Thumb from "../assets/portfolio/event/noug-convida/17Thumbnail.webp";
+import NougConvidaEssay18 from "../assets/portfolio/event/noug-convida/18.webp";
+import NougConvidaEssay18Thumb from "../assets/portfolio/event/noug-convida/18Thumbnail.webp";
+import NougConvidaEssay19 from "../assets/portfolio/event/noug-convida/19.webp";
+import NougConvidaEssay19Thumb from "../assets/portfolio/event/noug-convida/19Thumbnail.webp";
+import NougConvidaEssay20 from "../assets/portfolio/event/noug-convida/20.webp";
+import NougConvidaEssay20Thumb from "../assets/portfolio/event/noug-convida/20Thumbnail.webp";
+import NougConvidaEssay21 from "../assets/portfolio/event/noug-convida/21.webp";
+import NougConvidaEssay21Thumb from "../assets/portfolio/event/noug-convida/21Thumbnail.webp";
 
 // // Renata
 import RenataEssay1 from "../assets/portfolio/pregnant/renata/2.webp";
@@ -762,6 +784,50 @@ export const dataBase = [
       {
         original: <NougConvidaEssay10 />,
         thumbnail: <NougConvidaEssay10Thumb />,
+      },
+      {
+        original: <NougConvidaEssay11 />,
+        thumbnail: <NougConvidaEssay11Thumb />,
+      },
+      {
+        original: <NougConvidaEssay12 />,
+        thumbnail: <NougConvidaEssay12Thumb />,
+      },
+      {
+        original: <NougConvidaEssay13 />,
+        thumbnail: <NougConvidaEssay13Thumb />,
+      },
+      {
+        original: <NougConvidaEssay14 />,
+        thumbnail: <NougConvidaEssay14Thumb />,
+      },
+      {
+        original: <NougConvidaEssay15 />,
+        thumbnail: <NougConvidaEssay15Thumb />,
+      },
+      {
+        original: <NougConvidaEssay16 />,
+        thumbnail: <NougConvidaEssay16Thumb />,
+      },
+      {
+        original: <NougConvidaEssay17 />,
+        thumbnail: <NougConvidaEssay17Thumb />,
+      },
+      {
+        original: <NougConvidaEssay18 />,
+        thumbnail: <NougConvidaEssay18Thumb />,
+      },
+      {
+        original: <NougConvidaEssay19 />,
+        thumbnail: <NougConvidaEssay19Thumb />,
+      },
+      {
+        original: <NougConvidaEssay20 />,
+        thumbnail: <NougConvidaEssay20Thumb />,
+      },
+      {
+        original: <NougConvidaEssay21 />,
+        thumbnail: <NougConvidaEssay21Thumb />,
       },
     ],
   },
