@@ -11,8 +11,16 @@ import { RisaRiosEssayData } from "./essays/RisaRiosEssayData";
 import { LarissaEssayData } from "./essays/LarissaEssayData";
 import { ThacioEssayData } from "./essays/ThacioEssayData";
 import { LuizaEssayData } from "./essays/LuizaEssayData";
+import { MariaEssayData } from "./essays/MariaEssayData";
 
 export const dataBase = [
+  {
+    id: 15,
+    src: MariaEssayData[0].original,
+    category: "Corporativas",
+    description: "Psicológa",
+    images: MariaEssayData,
+  },
   {
     id: 14,
     src: LuizaEssayData[17].original,
