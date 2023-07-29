@@ -17,7 +17,7 @@ export const dataBase = [
     id: 14,
     src: LuizaEssayData[17].original,
     category: "Corporativas",
-    description: "Dermatologista",
+    description: "Cirurgiã Vascular",
     images: LuizaEssayData,
   },
   {
