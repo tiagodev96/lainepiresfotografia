@@ -26,12 +26,12 @@ const Banner = ({ roles }) => {
     <BannerContainer>
       <PictureLP src={ProfilePictureLP} alt="" />
       <BannerContent>
-        <p>Explore meu mundo fotográfico!</p>
+        <p>Conheça meu trabalho!</p>
         <h1>Olá, Eu sou Laine Pires</h1>
         <StyledH1 visible={visible} key={roles[rolesIndex]}>
           {roles[rolesIndex]}.
         </StyledH1>
-        <h2>Ensaios femininos criativos com leveza e autenticidade!</h2>
+        <h2>Ensaios criativos com leveza e autenticidade!</h2>
       </BannerContent>
     </BannerContainer>
   );

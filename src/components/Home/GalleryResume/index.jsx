@@ -66,6 +66,7 @@ export const GalleryResume = () => {
       <CategoryTab>
         {categories.map((categoryItem) => (
           <li
+            key={categoryItem.type}
             onClick={() => handleCategoryChange(categoryItem.type)}
             className={categoryItem.type === category ? "active" : ""}
           >
