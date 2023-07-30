@@ -15,9 +15,17 @@ export const CustomCardContiner = styled.div`
 
   h2,
   h3 {
-    font-size: 1.25rem;
+    font-size: 2.5rem;
     letter-spacing: 0.05rem;
-    text-align: left;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 3px solid ${(props) => props.theme["black"]};
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: bold;
   }
 
   a {
@@ -41,5 +49,21 @@ export const CustomCardContiner = styled.div`
         background-color: ${(props) => props.theme["secondary"]};
       }
     }
+  }
+`;
+
+export const RequestQuote = styled.p`
+  font-weight: bold;
+  border: 1px solid ${(props) => props.theme["black"]};
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 8px;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: #008000;
+    background-color: #008000;
+    color: ${(props) => props.theme["white"]};
   }
 `;
