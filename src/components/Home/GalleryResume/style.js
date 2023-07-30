@@ -7,11 +7,11 @@ export const GalleryResumeContainer = styled.div`
 export const CategoryTab = styled.ul`
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
   background-color: ${(props) => props.theme["black"]};
   gap: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
   color: ${(props) => props.theme["white"]};
   padding: 0.75rem;
   border-radius: 8px;

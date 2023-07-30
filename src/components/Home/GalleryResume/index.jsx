@@ -6,27 +6,17 @@ import { dataBase } from "../../../data/data";
 
 const categories = [
   { type: "corporate", name: "Corporativas" },
-  { type: "casual", name: "Casuais" },
-  { type: "thematic", name: "Temáticas" },
-  { type: "event", name: "Eventos" },
-  { type: "pregnant", name: "Gestantes" },
+  { type: "females", name: "Ensaios Femininos" },
+  { type: "events", name: "Eventos" },
 ];
 
 const corporateImages = dataBase.filter(
   (essay) => essay.category === "Corporativas"
 );
-
-const casualImages = dataBase.filter((essay) => essay.category === "Casuais");
-
-const thematicImages = dataBase.filter(
-  (essay) => essay.category === "Temáticas"
+const femaleImages = dataBase.filter(
+  (essay) => essay.category === "Ensaios Femininos"
 );
-
 const eventImages = dataBase.filter((essay) => essay.category === "Eventos");
-
-const pregnantImages = dataBase.filter(
-  (essay) => essay.category === "Gestantes"
-);
 
 export const GalleryResume = () => {
   const [category, setCategory] = useState("corporate");
@@ -44,20 +34,12 @@ export const GalleryResume = () => {
       return corporateImages;
     }
 
-    if (category === "casual") {
-      return casualImages;
+    if (category === "females") {
+      return femaleImages;
     }
 
-    if (category === "thematic") {
-      return thematicImages;
-    }
-
-    if (category === "event") {
+    if (category === "events") {
       return eventImages;
-    }
-
-    if (category === "pregnant") {
-      return pregnantImages;
     }
   };
 
@@ -77,7 +59,7 @@ export const GalleryResume = () => {
 
       <GalleryDisplay>
         {defineImagesToDisplay().map((image) => (
-          <GalleryResumePictureContainer imageObject={image} />
+          <GalleryResumePictureContainer key={image.id} imageObject={image} />
         ))}
       </GalleryDisplay>
     </GalleryResumeContainer>
