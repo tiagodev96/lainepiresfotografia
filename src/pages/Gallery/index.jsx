@@ -8,27 +8,17 @@ import { dataBase } from "../../data/data";
 
 const categories = [
   { type: "corporate", name: "Corporativas" },
-  { type: "casual", name: "Casuais" },
-  { type: "thematic", name: "Temáticas" },
-  { type: "event", name: "Eventos" },
-  { type: "pregnant", name: "Gestantes" },
+  { type: "females", name: "Ensaios Femininos" },
+  { type: "events", name: "Eventos" },
 ];
 
-const corporateEssays = dataBase.filter(
+const corporateImages = dataBase.filter(
   (essay) => essay.category === "Corporativas"
 );
-
-const casualEssays = dataBase.filter((essay) => essay.category === "Casuais");
-
-const thematicEssays = dataBase.filter(
-  (essay) => essay.category === "Temáticas"
+const femaleImages = dataBase.filter(
+  (essay) => essay.category === "Ensaios Femininos"
 );
-
-const eventEssays = dataBase.filter((essay) => essay.category === "Eventos");
-
-const pregnantEssays = dataBase.filter(
-  (essay) => essay.category === "Gestantes"
-);
+const eventImages = dataBase.filter((essay) => essay.category === "Eventos");
 
 export const Gallery = () => {
   const [category, setCategory] = useState("corporate");
@@ -37,63 +27,23 @@ export const Gallery = () => {
     setCategory(categoryType);
   };
 
-  const defineEssaysToDisplay = () => {
+  const defineImagesToDisplay = () => {
     if (category === "all") {
-      return allEssays;
+      return allImages;
     }
 
     if (category === "corporate") {
-      return corporateEssays;
+      return corporateImages;
     }
 
-    if (category === "casual") {
-      return casualEssays;
+    if (category === "females") {
+      return femaleImages;
     }
 
-    if (category === "thematic") {
-      return thematicEssays;
-    }
-
-    if (category === "event") {
-      return eventEssays;
-    }
-
-    if (category === "pregnant") {
-      return pregnantEssays;
+    if (category === "events") {
+      return eventImages;
     }
   };
-
-  const { essayCategory } = useParams();
-
-  const handleCategoryParams = (category) => {
-    let categoryLowerCase = category.toLowerCase();
-    switch (categoryLowerCase) {
-      case "corporativas":
-        return "corporate";
-
-      case "casuais":
-        return "casual";
-
-      case "temáticas":
-        return "thematic";
-
-      case "eventos":
-        return "event";
-
-      case "gestantes":
-        return "pregnant";
-
-      default:
-        return "all";
-    }
-  };
-
-  useEffect(() => {
-    if (essayCategory && essayCategory.length >= 1) {
-      let category = handleCategoryParams(essayCategory);
-      setCategory(category);
-    }
-  }, [essayCategory]);
 
   return (
     <GalleryContainer>
@@ -101,6 +51,7 @@ export const Gallery = () => {
       <CategoryTab>
         {categories.map((categoryItem) => (
           <li
+            key={categoryItem.type}
             onClick={() => handleCategoryChange(categoryItem.type)}
             className={categoryItem.type === category ? "active" : ""}
           >
@@ -110,8 +61,8 @@ export const Gallery = () => {
       </CategoryTab>
 
       <PhotoEssaysContainer>
-        {defineEssaysToDisplay().map((image) => (
-          <PhotoEssay imageObject={image} />
+        {defineImagesToDisplay().map((image) => (
+          <PhotoEssay key={image.id} imageObject={image} />
         ))}
       </PhotoEssaysContainer>
     </GalleryContainer>
