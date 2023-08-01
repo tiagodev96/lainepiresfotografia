@@ -1,12 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { GalleryContainer } from "./style";
-import { dataBase } from "../../../../../data/data";
 
 export const GalleryResumePictureContainer = ({ imageObject }) => {
-  useEffect(() => {
-    console.log(dataBase);
-  }, [dataBase]);
   const handleLinkClick = () => {
     window.scrollTo({ top: 0 });
   };
