@@ -54,110 +54,110 @@ import EliBeachEssay7Thumb from "../../assets/portfolio/casual/eli/7Thumbnail.we
 
 export const EliEssayData = [
   {
-    original: <EliEssay1 />,
-    thumbnail: <EliEssay1Thumb />,
+    original: EliEssay1,
+    thumbnail: EliEssay1Thumb,
   },
   {
-    original: <EliEssay2 />,
-    thumbnail: <EliEssay2Thumb />,
+    original: EliEssay2,
+    thumbnail: EliEssay2Thumb,
   },
   {
-    original: <EliEssay3 />,
-    thumbnail: <EliEssay3Thumb />,
+    original: EliEssay3,
+    thumbnail: EliEssay3Thumb,
   },
   {
-    original: <EliEssay4 />,
-    thumbnail: <EliEssay4Thumb />,
+    original: EliEssay4,
+    thumbnail: EliEssay4Thumb,
   },
   {
-    original: <EliEssay5 />,
-    thumbnail: <EliEssay5Thumb />,
+    original: EliEssay5,
+    thumbnail: EliEssay5Thumb,
   },
   {
-    original: <EliEssay6 />,
-    thumbnail: <EliEssay6Thumb />,
+    original: EliEssay6,
+    thumbnail: EliEssay6Thumb,
   },
   {
-    original: <EliEssay7 />,
-    thumbnail: <EliEssay7Thumb />,
+    original: EliEssay7,
+    thumbnail: EliEssay7Thumb,
   },
   {
-    original: <EliEssay8 />,
-    thumbnail: <EliEssay8Thumb />,
+    original: EliEssay8,
+    thumbnail: EliEssay8Thumb,
   },
   {
-    original: <EliEssay9 />,
-    thumbnail: <EliEssay9Thumb />,
+    original: EliEssay9,
+    thumbnail: EliEssay9Thumb,
   },
   {
-    original: <EliEssay10 />,
-    thumbnail: <EliEssay10Thumb />,
+    original: EliEssay10,
+    thumbnail: EliEssay10Thumb,
   },
   {
-    original: <EliEssay11 />,
-    thumbnail: <EliEssay11Thumb />,
+    original: EliEssay11,
+    thumbnail: EliEssay11Thumb,
   },
   {
-    original: <EliEssay12 />,
-    thumbnail: <EliEssay12Thumb />,
+    original: EliEssay12,
+    thumbnail: EliEssay12Thumb,
   },
   {
-    original: <EliEssay13 />,
-    thumbnail: <EliEssay13Thumb />,
+    original: EliEssay13,
+    thumbnail: EliEssay13Thumb,
   },
   {
-    original: <EliEssay14 />,
-    thumbnail: <EliEssay14Thumb />,
+    original: EliEssay14,
+    thumbnail: EliEssay14Thumb,
   },
   {
-    original: <EliEssay15 />,
-    thumbnail: <EliEssay15Thumb />,
+    original: EliEssay15,
+    thumbnail: EliEssay15Thumb,
   },
   {
-    original: <EliEssay16 />,
-    thumbnail: <EliEssay16Thumb />,
+    original: EliEssay16,
+    thumbnail: EliEssay16Thumb,
   },
   {
-    original: <EliEssay17 />,
-    thumbnail: <EliEssay17Thumb />,
+    original: EliEssay17,
+    thumbnail: EliEssay17Thumb,
   },
   {
-    original: <EliEssay18 />,
-    thumbnail: <EliEssay18Thumb />,
+    original: EliEssay18,
+    thumbnail: EliEssay18Thumb,
   },
   {
-    original: <EliEssay19 />,
-    thumbnail: <EliEssay19Thumb />,
+    original: EliEssay19,
+    thumbnail: EliEssay19Thumb,
   },
 ];
 
 export const EliBeachEssayData = [
   {
-    original: <EliBeachEssay1 />,
-    thumbnail: <EliBeachEssay1Thumb />,
+    original: EliBeachEssay1,
+    thumbnail: EliBeachEssay1Thumb,
   },
   {
-    original: <EliBeachEssay2 />,
-    thumbnail: <EliBeachEssay2Thumb />,
+    original: EliBeachEssay2,
+    thumbnail: EliBeachEssay2Thumb,
   },
   {
-    original: <EliBeachEssay3 />,
-    thumbnail: <EliBeachEssay3Thumb />,
+    original: EliBeachEssay3,
+    thumbnail: EliBeachEssay3Thumb,
   },
   {
-    original: <EliBeachEssay4 />,
-    thumbnail: <EliBeachEssay4Thumb />,
+    original: EliBeachEssay4,
+    thumbnail: EliBeachEssay4Thumb,
   },
   {
-    original: <EliBeachEssay5 />,
-    thumbnail: <EliBeachEssay5Thumb />,
+    original: EliBeachEssay5,
+    thumbnail: EliBeachEssay5Thumb,
   },
   {
-    original: <EliBeachEssay6 />,
-    thumbnail: <EliBeachEssay6Thumb />,
+    original: EliBeachEssay6,
+    thumbnail: EliBeachEssay6Thumb,
   },
   {
-    original: <EliBeachEssay7 />,
-    thumbnail: <EliBeachEssay7Thumb />,
+    original: EliBeachEssay7,
+    thumbnail: EliBeachEssay7Thumb,
   },
 ];

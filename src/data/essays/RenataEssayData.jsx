@@ -21,43 +21,43 @@ import RenataEssay10Thumb from "../../assets/portfolio/pregnant/renata/10Thumb.w
 
 export const RenataEssayData = [
   {
-    original: <RenataEssay1 />,
-    thumbnail: <RenataEssay1Thumb />,
+    original: RenataEssay1,
+    thumbnail: RenataEssay1Thumb,
   },
   {
-    original: <RenataEssay2 />,
-    thumbnail: <RenataEssay2Thumb />,
+    original: RenataEssay2,
+    thumbnail: RenataEssay2Thumb,
   },
   {
-    original: <RenataEssay3 />,
-    thumbnail: <RenataEssay3Thumb />,
+    original: RenataEssay3,
+    thumbnail: RenataEssay3Thumb,
   },
   {
-    original: <RenataEssay4 />,
-    thumbnail: <RenataEssay4Thumb />,
+    original: RenataEssay4,
+    thumbnail: RenataEssay4Thumb,
   },
   {
-    original: <RenataEssay5 />,
-    thumbnail: <RenataEssay5Thumb />,
+    original: RenataEssay5,
+    thumbnail: RenataEssay5Thumb,
   },
   {
-    original: <RenataEssay6 />,
-    thumbnail: <RenataEssay6Thumb />,
+    original: RenataEssay6,
+    thumbnail: RenataEssay6Thumb,
   },
   {
-    original: <RenataEssay7 />,
-    thumbnail: <RenataEssay7Thumb />,
+    original: RenataEssay7,
+    thumbnail: RenataEssay7Thumb,
   },
   {
-    original: <RenataEssay8 />,
-    thumbnail: <RenataEssay8Thumb />,
+    original: RenataEssay8,
+    thumbnail: RenataEssay8Thumb,
   },
   {
-    original: <RenataEssay9 />,
-    thumbnail: <RenataEssay9Thumb />,
+    original: RenataEssay9,
+    thumbnail: RenataEssay9Thumb,
   },
   {
-    original: <RenataEssay10 />,
-    thumbnail: <RenataEssay10Thumb />,
+    original: RenataEssay10,
+    thumbnail: RenataEssay10Thumb,
   },
 ];

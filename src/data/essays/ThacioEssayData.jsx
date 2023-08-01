@@ -25,51 +25,51 @@ import ThacioEssay13Thumb from "../../assets/portfolio/corporate/thacio/13Thumbn
 
 export const ThacioEssayData = [
   {
-    original: <ThacioEssay1 />,
-    thumbnail: <ThacioEssay1Thumb />,
+    original: ThacioEssay1,
+    thumbnail: ThacioEssay1Thumb,
   },
   {
-    original: <ThacioEssay2 />,
-    thumbnail: <ThacioEssay2Thumb />,
+    original: ThacioEssay2,
+    thumbnail: ThacioEssay2Thumb,
   },
   {
-    original: <ThacioEssay3 />,
-    thumbnail: <ThacioEssay3Thumb />,
+    original: ThacioEssay3,
+    thumbnail: ThacioEssay3Thumb,
   },
   {
-    original: <ThacioEssay4 />,
-    thumbnail: <ThacioEssay4Thumb />,
+    original: ThacioEssay4,
+    thumbnail: ThacioEssay4Thumb,
   },
   {
-    original: <ThacioEssay6 />,
-    thumbnail: <ThacioEssay6Thumb />,
+    original: ThacioEssay6,
+    thumbnail: ThacioEssay6Thumb,
   },
   {
-    original: <ThacioEssay7 />,
-    thumbnail: <ThacioEssay7Thumb />,
+    original: ThacioEssay7,
+    thumbnail: ThacioEssay7Thumb,
   },
   {
-    original: <ThacioEssay8 />,
-    thumbnail: <ThacioEssay8Thumb />,
+    original: ThacioEssay8,
+    thumbnail: ThacioEssay8Thumb,
   },
   {
-    original: <ThacioEssay9 />,
-    thumbnail: <ThacioEssay9Thumb />,
+    original: ThacioEssay9,
+    thumbnail: ThacioEssay9Thumb,
   },
   {
-    original: <ThacioEssay10 />,
-    thumbnail: <ThacioEssay10Thumb />,
+    original: ThacioEssay10,
+    thumbnail: ThacioEssay10Thumb,
   },
   {
-    original: <ThacioEssay11 />,
-    thumbnail: <ThacioEssay11Thumb />,
+    original: ThacioEssay11,
+    thumbnail: ThacioEssay11Thumb,
   },
   {
-    original: <ThacioEssay12 />,
-    thumbnail: <ThacioEssay12Thumb />,
+    original: ThacioEssay12,
+    thumbnail: ThacioEssay12Thumb,
   },
   {
-    original: <ThacioEssay13 />,
-    thumbnail: <ThacioEssay13Thumb />,
+    original: ThacioEssay13,
+    thumbnail: ThacioEssay13Thumb,
   },
 ];

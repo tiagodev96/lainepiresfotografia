@@ -20,7 +20,7 @@ export const PhotoDisplay = () => {
       imageObject[0].images.map((image) => {
         setImagesArray((prev) => [
           ...prev,
-          { original: image.original.type, thumbnail: image.thumbnail.type },
+          { original: image.original, thumbnail: image.thumbnail },
         ]);
       });
     }

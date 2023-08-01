@@ -21,43 +21,43 @@ import SimoneEssay10Thumb from "../../assets/portfolio/corporate/simone/10Thumb.
 
 export const SimoneEssayData = [
   {
-    original: <SimoneEssay1 />,
-    thumbnail: <SimoneEssay1Thumb />,
+    original: SimoneEssay1,
+    thumbnail: SimoneEssay1Thumb,
   },
   {
-    original: <SimoneEssay2 />,
-    thumbnail: <SimoneEssay2Thumb />,
+    original: SimoneEssay2,
+    thumbnail: SimoneEssay2Thumb,
   },
   {
-    original: <SimoneEssay3 />,
-    thumbnail: <SimoneEssay3Thumb />,
+    original: SimoneEssay3,
+    thumbnail: SimoneEssay3Thumb,
   },
   {
-    original: <SimoneEssay4 />,
-    thumbnail: <SimoneEssay4Thumb />,
+    original: SimoneEssay4,
+    thumbnail: SimoneEssay4Thumb,
   },
   {
-    original: <SimoneEssay5 />,
-    thumbnail: <SimoneEssay5Thumb />,
+    original: SimoneEssay5,
+    thumbnail: SimoneEssay5Thumb,
   },
   {
-    original: <SimoneEssay6 />,
-    thumbnail: <SimoneEssay6Thumb />,
+    original: SimoneEssay6,
+    thumbnail: SimoneEssay6Thumb,
   },
   {
-    original: <SimoneEssay7 />,
-    thumbnail: <SimoneEssay7Thumb />,
+    original: SimoneEssay7,
+    thumbnail: SimoneEssay7Thumb,
   },
   {
-    original: <SimoneEssay8 />,
-    thumbnail: <SimoneEssay8Thumb />,
+    original: SimoneEssay8,
+    thumbnail: SimoneEssay8Thumb,
   },
   {
-    original: <SimoneEssay9 />,
-    thumbnail: <SimoneEssay9Thumb />,
+    original: SimoneEssay9,
+    thumbnail: SimoneEssay9Thumb,
   },
   {
-    original: <SimoneEssay10 />,
-    thumbnail: <SimoneEssay10Thumb />,
+    original: SimoneEssay10,
+    thumbnail: SimoneEssay10Thumb,
   },
 ];

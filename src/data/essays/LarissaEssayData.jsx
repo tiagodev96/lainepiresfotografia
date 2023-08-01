@@ -27,55 +27,55 @@ import LarissaEssay13Thumb from "../../assets/portfolio/corporate/larissa/13Thum
 
 export const LarissaEssayData = [
   {
-    original: <LarissaEssay1 />,
-    thumbnail: <LarissaEssay1Thumb />,
+    original: LarissaEssay1,
+    thumbnail: LarissaEssay1Thumb,
   },
   {
-    original: <LarissaEssay2 />,
-    thumbnail: <LarissaEssay2Thumb />,
+    original: LarissaEssay2,
+    thumbnail: LarissaEssay2Thumb,
   },
   {
-    original: <LarissaEssay3 />,
-    thumbnail: <LarissaEssay3Thumb />,
+    original: LarissaEssay3,
+    thumbnail: LarissaEssay3Thumb,
   },
   {
-    original: <LarissaEssay4 />,
-    thumbnail: <LarissaEssay4Thumb />,
+    original: LarissaEssay4,
+    thumbnail: LarissaEssay4Thumb,
   },
   {
-    original: <LarissaEssay5 />,
-    thumbnail: <LarissaEssay5Thumb />,
+    original: LarissaEssay5,
+    thumbnail: LarissaEssay5Thumb,
   },
   {
-    original: <LarissaEssay6 />,
-    thumbnail: <LarissaEssay6Thumb />,
+    original: LarissaEssay6,
+    thumbnail: LarissaEssay6Thumb,
   },
   {
-    original: <LarissaEssay7 />,
-    thumbnail: <LarissaEssay7Thumb />,
+    original: LarissaEssay7,
+    thumbnail: LarissaEssay7Thumb,
   },
   {
-    original: <LarissaEssay8 />,
-    thumbnail: <LarissaEssay8Thumb />,
+    original: LarissaEssay8,
+    thumbnail: LarissaEssay8Thumb,
   },
   {
-    original: <LarissaEssay9 />,
-    thumbnail: <LarissaEssay9Thumb />,
+    original: LarissaEssay9,
+    thumbnail: LarissaEssay9Thumb,
   },
   {
-    original: <LarissaEssay10 />,
-    thumbnail: <LarissaEssay10Thumb />,
+    original: LarissaEssay10,
+    thumbnail: LarissaEssay10Thumb,
   },
   {
-    original: <LarissaEssay11 />,
-    thumbnail: <LarissaEssay11Thumb />,
+    original: LarissaEssay11,
+    thumbnail: LarissaEssay11Thumb,
   },
   {
-    original: <LarissaEssay12 />,
-    thumbnail: <LarissaEssay12Thumb />,
+    original: LarissaEssay12,
+    thumbnail: LarissaEssay12Thumb,
   },
   {
-    original: <LarissaEssay13 />,
-    thumbnail: <LarissaEssay13Thumb />,
+    original: LarissaEssay13,
+    thumbnail: LarissaEssay13Thumb,
   },
 ];

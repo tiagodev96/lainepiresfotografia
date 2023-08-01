@@ -37,78 +37,78 @@ import TalitaFonoEssay8Thumb from "../../assets/portfolio/corporate/talita/8Thum
 
 export const TalitaEssayData = [
   {
-    original: <TalitaEssay1 />,
-    thumbnail: <TalitaEssay1Thumb />,
+    original: TalitaEssay1,
+    thumbnail: TalitaEssay1Thumb,
   },
   {
-    original: <TalitaEssay2 />,
-    thumbnail: <TalitaEssay2Thumb />,
+    original: TalitaEssay2,
+    thumbnail: TalitaEssay2Thumb,
   },
   {
-    original: <TalitaEssay3 />,
-    thumbnail: <TalitaEssay3Thumb />,
+    original: TalitaEssay3,
+    thumbnail: TalitaEssay3Thumb,
   },
   {
-    original: <TalitaEssay4 />,
-    thumbnail: <TalitaEssay4Thumb />,
+    original: TalitaEssay4,
+    thumbnail: TalitaEssay4Thumb,
   },
   {
-    original: <TalitaEssay5 />,
-    thumbnail: <TalitaEssay5Thumb />,
+    original: TalitaEssay5,
+    thumbnail: TalitaEssay5Thumb,
   },
   {
-    original: <TalitaEssay6 />,
-    thumbnail: <TalitaEssay6Thumb />,
+    original: TalitaEssay6,
+    thumbnail: TalitaEssay6Thumb,
   },
   {
-    original: <TalitaEssay7 />,
-    thumbnail: <TalitaEssay7Thumb />,
+    original: TalitaEssay7,
+    thumbnail: TalitaEssay7Thumb,
   },
   {
-    original: <TalitaEssay8 />,
-    thumbnail: <TalitaEssay8Thumb />,
+    original: TalitaEssay8,
+    thumbnail: TalitaEssay8Thumb,
   },
   {
-    original: <TalitaEssay9 />,
-    thumbnail: <TalitaEssay9Thumb />,
+    original: TalitaEssay9,
+    thumbnail: TalitaEssay9Thumb,
   },
   {
-    original: <TalitaEssay10 />,
-    thumbnail: <TalitaEssay10Thumb />,
+    original: TalitaEssay10,
+    thumbnail: TalitaEssay10Thumb,
   },
 ];
 
 export const TalitaFonoEssayData = [
   {
-    original: <TalitaFonoEssay1 />,
-    thumbnail: <TalitaFonoEssay1Thumb />,
+    original: TalitaFonoEssay1,
+    thumbnail: TalitaFonoEssay1Thumb,
   },
   {
-    original: <TalitaFonoEssay2 />,
-    thumbnail: <TalitaFonoEssay2Thumb />,
+    original: TalitaFonoEssay2,
+    thumbnail: TalitaFonoEssay2Thumb,
   },
   {
-    original: <TalitaFonoEssay3 />,
-    thumbnail: <TalitaFonoEssay3Thumb />,
+    original: TalitaFonoEssay3,
+    thumbnail: TalitaFonoEssay3Thumb,
   },
   {
-    original: <TalitaFonoEssay4 />,
-    thumbnail: <TalitaFonoEssay4Thumb />,
+    original: TalitaFonoEssay4,
+    thumbnail: TalitaFonoEssay4Thumb,
   },
   {
-    original: <TalitaFonoEssay5 />,
-    thumbnail: <TalitaFonoEssay5Thumb />,
+    original: TalitaFonoEssay5,
+    thumbnail: TalitaFonoEssay5Thumb,
   },
   {
-    original: <TalitaFonoEssay6 />,
-    thumbnail: <TalitaFonoEssay6Thumb />,
+    original: TalitaFonoEssay6,
+    thumbnail: TalitaFonoEssay6Thumb,
   },
   {
-    original: <TalitaFonoEssay7 />,
-    thumbnail: <TalitaFonoEssay7Thumb />,
+    original: TalitaFonoEssay7,
+    thumbnail: TalitaFonoEssay7Thumb,
   },
   {
-    original: <TalitaFonoEssay8 />,
-    thumbnail: <TalitaFonoEssay8Thumb />,
+    original: TalitaFonoEssay8,
+    thumbnail: TalitaFonoEssay8Thumb,
   },
 ];

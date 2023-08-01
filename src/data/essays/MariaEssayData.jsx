@@ -37,75 +37,75 @@ import MariaEssay18Thumb from "../../assets/portfolio/corporate/maria/18Thumbnai
 
 export const MariaEssayData = [
   {
-    original: <MariaEssay1 />,
-    thumbnail: <MariaEssay1Thumb />,
+    original: MariaEssay1,
+    thumbnail: MariaEssay1Thumb,
   },
   {
-    original: <MariaEssay2 />,
-    thumbnail: <MariaEssay2Thumb />,
+    original: MariaEssay2,
+    thumbnail: MariaEssay2Thumb,
   },
   {
-    original: <MariaEssay3 />,
-    thumbnail: <MariaEssay3Thumb />,
+    original: MariaEssay3,
+    thumbnail: MariaEssay3Thumb,
   },
   {
-    original: <MariaEssay4 />,
-    thumbnail: <MariaEssay4Thumb />,
+    original: MariaEssay4,
+    thumbnail: MariaEssay4Thumb,
   },
   {
-    original: <MariaEssay5 />,
-    thumbnail: <MariaEssay5Thumb />,
+    original: MariaEssay5,
+    thumbnail: MariaEssay5Thumb,
   },
   {
-    original: <MariaEssay6 />,
-    thumbnail: <MariaEssay6Thumb />,
+    original: MariaEssay6,
+    thumbnail: MariaEssay6Thumb,
   },
   {
-    original: <MariaEssay7 />,
-    thumbnail: <MariaEssay7Thumb />,
+    original: MariaEssay7,
+    thumbnail: MariaEssay7Thumb,
   },
   {
-    original: <MariaEssay8 />,
-    thumbnail: <MariaEssay8Thumb />,
+    original: MariaEssay8,
+    thumbnail: MariaEssay8Thumb,
   },
   {
-    original: <MariaEssay9 />,
-    thumbnail: <MariaEssay9Thumb />,
+    original: MariaEssay9,
+    thumbnail: MariaEssay9Thumb,
   },
   {
-    original: <MariaEssay10 />,
-    thumbnail: <MariaEssay10Thumb />,
+    original: MariaEssay10,
+    thumbnail: MariaEssay10Thumb,
   },
   {
-    original: <MariaEssay11 />,
-    thumbnail: <MariaEssay11Thumb />,
+    original: MariaEssay11,
+    thumbnail: MariaEssay11Thumb,
   },
   {
-    original: <MariaEssay12 />,
-    thumbnail: <MariaEssay12Thumb />,
+    original: MariaEssay12,
+    thumbnail: MariaEssay12Thumb,
   },
   {
-    original: <MariaEssay13 />,
-    thumbnail: <MariaEssay13Thumb />,
+    original: MariaEssay13,
+    thumbnail: MariaEssay13Thumb,
   },
   {
-    original: <MariaEssay14 />,
-    thumbnail: <MariaEssay14Thumb />,
+    original: MariaEssay14,
+    thumbnail: MariaEssay14Thumb,
   },
   {
-    original: <MariaEssay15 />,
-    thumbnail: <MariaEssay15Thumb />,
+    original: MariaEssay15,
+    thumbnail: MariaEssay15Thumb,
   },
   {
-    original: <MariaEssay16 />,
-    thumbnail: <MariaEssay16Thumb />,
+    original: MariaEssay16,
+    thumbnail: MariaEssay16Thumb,
   },
   {
-    original: <MariaEssay17 />,
-    thumbnail: <MariaEssay17Thumb />,
+    original: MariaEssay17,
+    thumbnail: MariaEssay17Thumb,
   },
   {
-    original: <MariaEssay18 />,
-    thumbnail: <MariaEssay18Thumb />,
+    original: MariaEssay18,
+    thumbnail: MariaEssay18Thumb,
   },
 ];

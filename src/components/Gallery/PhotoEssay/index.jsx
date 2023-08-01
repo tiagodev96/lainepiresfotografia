@@ -6,7 +6,7 @@ const PhotoEssay = ({ imageObject }) => {
   return (
     <Link to={`/galeria/album/${imageObject.id}`}>
       <PhotoEssayContainer>
-        <img src={imageObject.src.type} alt={imageObject.description} />
+        <img src={imageObject.src} alt={imageObject.description} />
         <p>{imageObject.category}</p>
         <h3>{imageObject.description}</h3>
       </PhotoEssayContainer>

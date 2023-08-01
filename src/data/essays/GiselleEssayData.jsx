@@ -21,43 +21,43 @@ import GiselleEssay10Thumb from "../../assets/portfolio/corporate/giselle/10Thum
 
 export const GiselleEssayData = [
   {
-    original: <GiselleEssay1 />,
-    thumbnail: <GiselleEssay1Thumb />,
+    original: GiselleEssay1,
+    thumbnail: GiselleEssay1Thumb,
   },
   {
-    original: <GiselleEssay2 />,
-    thumbnail: <GiselleEssay2Thumb />,
+    original: GiselleEssay2,
+    thumbnail: GiselleEssay2Thumb,
   },
   {
-    original: <GiselleEssay3 />,
-    thumbnail: <GiselleEssay3Thumb />,
+    original: GiselleEssay3,
+    thumbnail: GiselleEssay3Thumb,
   },
   {
-    original: <GiselleEssay4 />,
-    thumbnail: <GiselleEssay4Thumb />,
+    original: GiselleEssay4,
+    thumbnail: GiselleEssay4Thumb,
   },
   {
-    original: <GiselleEssay5 />,
-    thumbnail: <GiselleEssay5Thumb />,
+    original: GiselleEssay5,
+    thumbnail: GiselleEssay5Thumb,
   },
   {
-    original: <GiselleEssay6 />,
-    thumbnail: <GiselleEssay6Thumb />,
+    original: GiselleEssay6,
+    thumbnail: GiselleEssay6Thumb,
   },
   {
-    original: <GiselleEssay7 />,
-    thumbnail: <GiselleEssay7Thumb />,
+    original: GiselleEssay7,
+    thumbnail: GiselleEssay7Thumb,
   },
   {
-    original: <GiselleEssay8 />,
-    thumbnail: <GiselleEssay8Thumb />,
+    original: GiselleEssay8,
+    thumbnail: GiselleEssay8Thumb,
   },
   {
-    original: <GiselleEssay9 />,
-    thumbnail: <GiselleEssay9Thumb />,
+    original: GiselleEssay9,
+    thumbnail: GiselleEssay9Thumb,
   },
   {
-    original: <GiselleEssay10 />,
-    thumbnail: <GiselleEssay10Thumb />,
+    original: GiselleEssay10,
+    thumbnail: GiselleEssay10Thumb,
   },
 ];

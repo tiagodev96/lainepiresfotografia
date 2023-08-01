@@ -31,63 +31,63 @@ import EvaniEssay15Thumb from "../../assets/portfolio/casual/evani/15Thumb.webp"
 
 export const EvaniEssayData = [
   {
-    original: <EvaniEssay1 />,
-    thumbnail: <EvaniEssay1Thumb />,
+    original: EvaniEssay1,
+    thumbnail: EvaniEssay1Thumb,
   },
   {
-    original: <EvaniEssay2 />,
-    thumbnail: <EvaniEssay2Thumb />,
+    original: EvaniEssay2,
+    thumbnail: EvaniEssay2Thumb,
   },
   {
-    original: <EvaniEssay3 />,
-    thumbnail: <EvaniEssay3Thumb />,
+    original: EvaniEssay3,
+    thumbnail: EvaniEssay3Thumb,
   },
   {
-    original: <EvaniEssay4 />,
-    thumbnail: <EvaniEssay4Thumb />,
+    original: EvaniEssay4,
+    thumbnail: EvaniEssay4Thumb,
   },
   {
-    original: <EvaniEssay5 />,
-    thumbnail: <EvaniEssay5Thumb />,
+    original: EvaniEssay5,
+    thumbnail: EvaniEssay5Thumb,
   },
   {
-    original: <EvaniEssay6 />,
-    thumbnail: <EvaniEssay6Thumb />,
+    original: EvaniEssay6,
+    thumbnail: EvaniEssay6Thumb,
   },
   {
-    original: <EvaniEssay7 />,
-    thumbnail: <EvaniEssay7Thumb />,
+    original: EvaniEssay7,
+    thumbnail: EvaniEssay7Thumb,
   },
   {
-    original: <EvaniEssay8 />,
-    thumbnail: <EvaniEssay8Thumb />,
+    original: EvaniEssay8,
+    thumbnail: EvaniEssay8Thumb,
   },
   {
-    original: <EvaniEssay9 />,
-    thumbnail: <EvaniEssay9Thumb />,
+    original: EvaniEssay9,
+    thumbnail: EvaniEssay9Thumb,
   },
   {
-    original: <EvaniEssay10 />,
-    thumbnail: <EvaniEssay10Thumb />,
+    original: EvaniEssay10,
+    thumbnail: EvaniEssay10Thumb,
   },
   {
-    original: <EvaniEssay11 />,
-    thumbnail: <EvaniEssay11Thumb />,
+    original: EvaniEssay11,
+    thumbnail: EvaniEssay11Thumb,
   },
   {
-    original: <EvaniEssay12 />,
-    thumbnail: <EvaniEssay12Thumb />,
+    original: EvaniEssay12,
+    thumbnail: EvaniEssay12Thumb,
   },
   {
-    original: <EvaniEssay13 />,
-    thumbnail: <EvaniEssay13Thumb />,
+    original: EvaniEssay13,
+    thumbnail: EvaniEssay13Thumb,
   },
   {
-    original: <EvaniEssay14 />,
-    thumbnail: <EvaniEssay14Thumb />,
+    original: EvaniEssay14,
+    thumbnail: EvaniEssay14Thumb,
   },
   {
-    original: <EvaniEssay15 />,
-    thumbnail: <EvaniEssay15Thumb />,
+    original: EvaniEssay15,
+    thumbnail: EvaniEssay15Thumb,
   },
 ];
