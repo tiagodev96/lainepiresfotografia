@@ -8,13 +8,14 @@ export const PhotoEssayContainer = styled.div`
   border-radius: 8px;
   transition: all 0.2s ease-in-out;
   border: 1px solid transparent;
+  max-width: 332px;
 
   &:hover {
     border: 1px solid ${(props) => props.theme["black"]};
   }
 
   img {
-    width: 300px;
+    width: 100%;
     border-radius: 8px;
     height: 500px;
     object-fit: cover;
@@ -26,6 +27,6 @@ export const PhotoEssayContainer = styled.div`
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 `;
