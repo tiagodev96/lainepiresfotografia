@@ -1,0 +1,1 @@
+export const directLink = 'https://ig.me/m/lainepiresfotografia'

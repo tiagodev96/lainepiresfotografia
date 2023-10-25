@@ -10,18 +10,10 @@ import {
 } from "./styles";
 
 import CheckOutlinedIcon from "@mui/icons-material/CheckOutlined";
-import StarIcon from "@mui/icons-material/Star";
 import DiamondIcon from "@mui/icons-material/Diamond";
+import StarIcon from "@mui/icons-material/Star";
 import { Link } from "react-router-dom";
-
-const basicLink =
-  "https://api.whatsapp.com/send?phone=5571993741710&text=Ol%C3%A1,%20Laine!%0A%0AGostaria%20de%20receber%20um%20or%C3%A7amento%20para%20o%20*PACOTE%20B%C3%81SICO*.";
-
-const proLink =
-  "https://api.whatsapp.com/send?phone=5571993741710&text=Ol%C3%A1,%20Laine!%0A%0AGostaria%20de%20receber%20um%20or%C3%A7amento%20para%20o%20*PACOTE%20PRO*.";
-
-const premiumLink =
-  "https://api.whatsapp.com/send?phone=5571993741710&text=Ol%C3%A1,%20Laine!%0A%0AGostaria%20de%20receber%20um%20or%C3%A7amento%20para%20o%20*PACOTE%20PREMIUM*.";
+import { directLink } from '../constants';
 
 const ServiceCard = ({ type }) => {
   return (
@@ -47,7 +39,7 @@ const ServiceCard = ({ type }) => {
           <BasicAmountContainer>
             <h3>15 Fotos Tratadas</h3>
           </BasicAmountContainer>
-          <Link to={basicLink} target="_blank">
+          <Link to={directLink} target="_blank">
             <RequestQuote>Solicitar Orçamento</RequestQuote>
           </Link>
         </BasicServiceCard>
@@ -72,7 +64,7 @@ const ServiceCard = ({ type }) => {
           <ProAmountContainer>
             <h3>25 Fotos Tratadas</h3>
           </ProAmountContainer>
-          <Link to={proLink} target="_blank">
+          <Link to={directLink} target="_blank">
             <RequestQuote>Solicitar Orçamento</RequestQuote>
           </Link>
         </ProServiceCard>
@@ -98,7 +90,7 @@ const ServiceCard = ({ type }) => {
           <PremiumAmountContainer>
             <h3>35 Fotos Tratadas</h3>
           </PremiumAmountContainer>
-          <Link to={premiumLink} target="_blank">
+          <Link to={directLink} target="_blank">
             <RequestQuote>Solicitar Orçamento</RequestQuote>
           </Link>
         </PremiumServiceCard>
